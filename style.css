@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+nav {
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: #ffffff;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+nav .navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: #ffffff;
+ margin: auto;
+}
+
+
+nav .navbar .logo a {
+  color: #000000;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+
+nav .navbar .logo a:hover {
+    color: #000000;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    
+
+  }
+
+
+
+nav .navbar .menu {
+  display: flex;
+}
+
+
+.navbar .menu li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+
+.navbar .menu li a {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar .menu li a:hover {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  
+  color: #000000;
+  font-size: 70px;
+}
+
+/* ===== Home-Start =====*/
+
+
+.Home {
+  display: flex;
+  background-image: url(bgbg2.jpg);
+  box-sizing: border-box;
+  background-color: rgb(234, 234, 241);
+ 
+
+}
+
+.my-sentence{
+    font-size: 52px;
+    font-weight: 395;
+    color: #000000;
+   margin-left: 340px;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+
+   
+
+    
+}
+
+.my-sentence small{
+  font-size: 25px;
+  
+
+}
+
+
+.picko:hover{
+
+  margin-left: 45px;
+  box-sizing: content-box;
+  border-bottom: 8px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top: 8px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-right: 5px solid rgba(0, 0, 0, 0.8);
+  border-left: 5px solid rgba(0, 0, 0, 0.8);
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  
+  
+
+}
+
+.picko{
+
+  margin-left: 45px;
+  box-sizing: content-box;
+  border-bottom: 8px solid #F2F1EC;
+  background-color: #F2F1EC;
+  border-top: 8px solid #F2F1EC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-right: 5px solid #F2F1EC;
+  border-left: 5px solid #F2F1EC;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  
+  
+
+}
+
+
+
+/* ===== Home-End =====*/
+
+
+
+
+
+
+
+/* ===== About-Start =====*/
+
+
+
+.about-me-word{
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.About{
+  display: grid;
+  grid-template-columns: auto auto;
+
+  background-color: rgb(234, 234, 241);
+  
+}
+
+
+
+
+
+
+.para{
+  box-sizing: border-box;
+  background-color: rgb(234, 234, 241);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid rgb(234, 234, 241) ;
+  border-radius: 20px;
+  display: flex;
+  margin-left: 120px;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 65px;
+  margin-bottom: 400px;
+  transition: 0.3s;
+  
+}
+
+
+.para:hover{
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0, 0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid rgb(255, 255, 255) ;
+  border-radius: 20px;
+  display: flex;
+  margin-left: 120px;
+  font-size: 22px;
+  color: rgb(255, 255, 255) ;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 65px;
+  margin-bottom: 400px;
+  
+}
+
+
+
+
+
+.aboutmepic{
+  margin-left: 45px;
+  box-sizing: content-box;
+  margin-bottom: 300px;
+  border: 8px solid rgb(234, 234, 241) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* ===== About-End =====*/
+
+
+
+
+
+/* ===== Skills-Start =====*/
+
+.Skills{
+  display: grid;
+  background-color: rgb(234, 234, 241);
+  background-image: url(bgbgbaliktad.jpg);
+
+  
+
+}
+
+.skill1{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 870px;
+  margin-top: 100px;
+  letter-spacing: 8px;
+}
+
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  padding: 50px;
+  margin-bottom: 150px;
+  row-gap: 50px;
+  column-gap: 60px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: 0.3s;
+}
+
+.grid-item:hover {
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 40px;
+}
+
+
+
+
+
+/* ===== Skills-End =====*/
+
+
+
+/* ===== Works-Start =====*/
+
+.Works{
+  display: grid;
+  background-color: rgb(255, 255, 255);
+  height: fit-content;
+}
+
+.Work1{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 638px;
+  margin-top: 80px;
+  letter-spacing: 8px;
+  
+}
+
+
+.grid-container-works {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  margin-bottom: 150px;
+  row-gap: 50px;
+  column-gap: 20px;
+  
+  padding-right: 120px;
+  padding-left: 120px;
+ 
+}
+.grid-item-works {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 225px;
+  margin-right: auto;
+  margin-top: 35px;
+  cursor: pointer;
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  transition-timing-function: ease; 
+}
+
+
+.grid-item-works:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-left: 225px;
+  margin-right: auto;
+  margin-top: 20px;
+  transform: scale(1.11); 
+  
+
+}
+
+.bottom-left{
+  font-size: 50px;
+  font-weight: 340;
+  position: relative; /* Make the ::before pseudo-element position relative to this */
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-left::before{
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  bottom: -2px; /* Adjust this value to change the distance of the underline from the text */
+  left: 0;
+  width: 0; /* Start with no width */
+  height: 2px; /* Underline height */
+  background-color: rgb(0, 0, 0, 0.8); /* Underline color */
+  transition: width 0.3s; /* Transition the width to create the effect */
+
+}
+
+.bottom-left:hover::before{
+  width: 100%;
+
+}
+
+.ibang-bottom-left{
+  font-size: 50px;
+  font-weight: 400;
+  position: relative; /* Make the ::before pseudo-element position relative to this */
+  text-decoration: none;
+  color: black;
+  padding-left: 140px;
+}
+
+.ibang-bottom-left::before{
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  bottom: -2px; /* Adjust this value to change the distance of the underline from the text */
+  left: 0;
+  width: 0; /* Start with no width */
+  height: 2px; /* Underline height */
+  background-color: rgb(0, 0, 0, 0.8); /* Underline color */
+  transition: width 0.3s; /* Transition the width to create the effect */
+
+}
+
+.ibang-bottom-left:hover::before{
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+.Switzerland-photos{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 620px;
+  margin-top: 30px;
+  margin-right: auto;
+  color: rgb(171, 169, 169);
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.Switzerland-photos:hover{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 615px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0, 0.6);
+  text-decoration: none;
+  
+   
+  
+}
+
+
+.Europe-Videos-Text{
+  font-size: 30px;
+  margin-left: 555px;
+  color: rgb(171, 169, 169);
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.Europe-Videos-Text:hover{
+  font-size: 30px;
+  margin-left: 555px;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+/* ===== start of nung vid highlights*/
+
+.grid-europe-videos-container{
+  display: grid;
+  padding-left: 160px;
+  padding-right: 160px;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 150px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.grid-item-works-videos{
+  background-color:  rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  cursor: pointer;
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  transition-timing-function: ease; 
+
+}
+
+.grid-item-works-videos:hover{
+  background-color:  rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  transform: scale(1.1);
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  cursor: pointer;
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  transition-timing-function: ease; 
+
+}
+
+
+
+
+
+  
+  
+
+
+
+
+/* ===== Works-End =====*/
+
+/* ===== Contact-Start =====*/
+
+
+.Contact{
+  display: grid;
+  background-color: rgb(234, 234, 241);
+  background-image: url(mainbgbg.jpg);
+
+}
+
+.Contact1{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 780px;
+  margin-top: 15px;
+  letter-spacing: 8px;
+  font-size: 45px;
+}
+
+
+.grid-container-Contact {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto;
+ padding-left: 500px;
+ padding-right: 500px;
+  row-gap: 50px;
+  margin-bottom: 150px;
+  
+  
+}
+.grid-item-Contact-Facebook {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  padding: 25px;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.grid-item-Contact-Facebook:hover {
+  background-color:#0866ff;
+  color: #ffffff;
+  padding: 25px;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  text-decoration: none;
+
+}
+
+.grid-item-Contact-Ig {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  padding: 25px;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.grid-item-Contact-Ig:Hover {
+  background-color:#F56040;
+  color: #000000;
+  padding: 25px;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.grid-item-Contact-Gmail {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  padding: 25px;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  text-decoration: none;
+}
+
+.grid-item-Contact-Num {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  padding: 25px;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
